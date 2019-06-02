@@ -17,4 +17,16 @@
 1. Rodar o comando "npm run-script build"
 2. Rodar o comando "npm start build"
 
+![Árvore de componentes do projeto](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559474480/memory-game/component-tree_cwyd5q.png)
+
+![Tela de login](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477142/memory-game/login-screen_sqx87a.png)
+
+![Tela do jogo](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477143/memory-game/game-screen_vgk9vt.png)
+
+![Tela do jogo finalizado](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477143/memory-game/game-completo-screen_le0kor.png)
+
+![Ranking do jogo](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477143/memory-game/ranking-screen_sbzefi.png)
+
+
+
 
