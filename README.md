@@ -30,7 +30,7 @@
 ###### Tela do jogo finalizado
 ![Tela do jogo finalizado](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477143/memory-game/game-completo-screen_le0kor.png)
 
-######## Ranking do jogo
+###### Ranking do jogo
 ![Ranking do jogo](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477143/memory-game/ranking-screen_sbzefi.png)
 
 
