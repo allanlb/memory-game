@@ -1,7 +1,6 @@
 import './ranking.scss';
 
 class rankingCtrl {
-
   constructor(gameService) {
     this.gameService = gameService;
   }

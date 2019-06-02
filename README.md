@@ -33,6 +33,7 @@
 ###### Ranking do jogo
 ![Ranking do jogo](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559477143/memory-game/ranking-screen_sbzefi.png)
 
-
+## Cobertura de testes
+![Cobertura de testes](https://res.cloudinary.com/dfo6ivpvh/image/upload/v1559474480/memory-game/project-coverage_wgdjn4.png)
 
 

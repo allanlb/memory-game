@@ -9,12 +9,12 @@ class cardCtrl {
     const flippedCards = $(document).find('.flipped').not('.matched');
       
     if(flippedCards.length >= 2){
-      $(document).find('.flipped').not('.matched').removeClass('flipped');
-      console.log('blocked!'); 
+      $(document).find('.flipped').not('.matched').removeClass('flipped'); 
       return;
     }
     const cardParent = $(event.target).closest('.flip');
     cardParent.find('.card').addClass('flipped');
+    
     this.onChooseCard(element);
   }
 }

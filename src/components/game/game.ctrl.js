@@ -76,6 +76,7 @@ class gameCtrl {
   incrementRounds(){
     this.rounds++;
   }
+
   hasTwoCardsChoosen(firstCard, secondCard){
     return (firstCard && secondCard);
   }
@@ -119,9 +120,10 @@ class gameCtrl {
   }
 
   scrollToTop(){
-    const htmlPage = $("html");
+    const htmlPage = $('html');
     htmlPage.animate({scrollTop:0}, 500, 'swing');
   }
+
   endGame(){
     const rankingElement = {};
     rankingElement.player = this.player;
@@ -130,6 +132,7 @@ class gameCtrl {
     this.winMessage = GAME_WIN_MESSAGE;
 
     this.scrollToTop();
+    
     return rankingElement;
   }
 
