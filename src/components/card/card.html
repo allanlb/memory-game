@@ -1,0 +1,11 @@
+<div class="flip" ng-click="$ctrl.chooseCard($event, card.element)"> 
+    <div class="card"> 
+        <div class="face front"> 
+            <img ng-src="assets/images/question-mark.png" width="150" height="150"/>
+        </div> 
+        <div class="face back"> 
+            <img ng-src="assets/images/{{$ctrl.element.url}}"/>
+        </div> 
+    </div> 
+</div> 
+    

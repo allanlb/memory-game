@@ -1,0 +1,24 @@
+
+<div class="ranking-box-min-height" layout-fill layout="column" layout-align="center none">
+    <div layout="row" layout-align="center none">
+        <md-card flex="30">
+            <md-card-title>
+                <md-card-title-text>
+                <span class="md-headline">{{!$ctrl.data.length ? 'Ranking vazio.': 'Ranking'}}</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-header ng-repeat="rankingElement in $ctrl.data track by rankingElement.player">
+                <md-card-avatar>
+                    <h1>{{$index + 1}}</h1>
+                </md-card-avatar>
+                <md-card-header-text>
+                    <h2 class="md-title">{{rankingElement.player}}</h2>
+                    <span class="md-subhead">Finalizou o jogo em {{rankingElement.rounds}} rodadas.</span>
+                </md-card-header-text>
+            </md-card-header>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button ng-href="/login">Novo jogo</md-button>
+            </md-card-actions>
+        </md-card>
+    </div>
+</div>

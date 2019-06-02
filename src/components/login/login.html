@@ -1,0 +1,25 @@
+<div class="login-box-min-height" layout-fill layout="column" layout-align="center none">
+    <div layout="row" layout-align="center none">
+        <md-card flex-gt-sm="40" flex="80">
+            <form novalidate>
+                <md-card-title>
+                    <md-card-title-text>
+                    <span class="md-headline">Memory-game Login</span>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-content>
+                    <md-input-container class="md-block">
+                        <label>Seu nome</label>
+                        <input required name="username" ng-model="$ctrl.username" >
+                        <span class="error-message">{{$ctrl.error.message}}</span>
+                    </md-input-container>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <md-button class="md-raised" type="submit" ng-click="$ctrl.doLogin($ctrl.username)">
+                        Entrar
+                    </md-button>
+                </md-card-actions>
+            </form>
+        </md-card>
+    </div>
+</div>

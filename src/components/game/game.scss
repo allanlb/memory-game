@@ -1,0 +1,18 @@
+$gray:  #E9E7E7;
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: $gray;
+  }
+  .card-element{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  
+  .text-align-center{
+    text-align: center;
+  }

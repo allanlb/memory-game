@@ -1,0 +1,12 @@
+<md-toolbar class="md-hue-4" layout="row" layout-align="center center">
+    <div layout="row">
+        <p ng-if="!$ctrl.winMessage">Rodadas: {{$ctrl.rounds}} | Acertos: {{$ctrl.matches.length}}</p>
+        <p ng-if="$ctrl.winMessage">{{$ctrl.winMessage}} {{$ctrl.rounds}} rodadas.</p>
+    </div>
+    <md-button class="md-raised" ng-if="$ctrl.winMessage" ng-href="/ranking">Ver ranking</md-button>
+    <md-button class="md-raised" ng-if="$ctrl.winMessage" ng-href="/login">Novo jogo</md-button>
+</md-toolbar>
+<div class="card-container">
+    <card element="card" on-choose-card="$ctrl.onChooseCard(card)" ng-repeat="card in $ctrl.cards track by card.name">{{card.name}}</card>
+    <h2 ng-if="$ctrl.noCardsLoadedError">{{$ctrl.noCardsLoadedError}}</h2>
+</div>

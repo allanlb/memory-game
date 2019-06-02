@@ -1,0 +1,11 @@
+{
+  "undef": true,
+  "unused": true,
+  "node": true,
+  "esnext": true,
+  "jasmine": true,
+  "globals": {
+    "require": false,
+    "angular": false
+  }
+}
