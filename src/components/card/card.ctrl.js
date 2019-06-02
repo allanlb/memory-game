@@ -2,9 +2,7 @@ import './card.scss';
 var $ = require('jQuery');
 
 class cardCtrl {
-
   constructor() {}
-
   $onInit() {}
 
   chooseCard(event, element){
