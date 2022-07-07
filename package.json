@@ -26,7 +26,7 @@
     "angular-resource": "^1.6.4",
     "angular-sanitize": "^1.6.4",
     "codacy-coverage": "^2.0.2",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "oclazyload": "^1.1.0",
     "jquery": "^3.4.1"
   },
